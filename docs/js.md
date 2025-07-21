@@ -5,3 +5,13 @@ function minhaFuncao() {
   // código aqui
 }
 ```
+
+Diretriz obrigatória: Todas as variáveis devem ser declaradas utilizando apenas const. Não utilize let ou var para declaração de variáveis. Exemplo:
+
+```js
+function exemploVariaveis() {
+  const nome = "João";
+  const idade = 25;
+  const ativo = true;
+}
+```
